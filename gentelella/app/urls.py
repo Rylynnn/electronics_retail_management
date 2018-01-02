@@ -8,5 +8,5 @@ urlpatterns = [
     url(r'^.*\.html', views.gentella_html, name='gentella'),
 
     # The home page
-    url(r'^$', views.index, name='index'),
+    url(r'^$', views.index, name='login'),
 ]
